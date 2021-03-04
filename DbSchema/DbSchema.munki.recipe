@@ -19,7 +19,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Universal database tool for interacting with databases.</string>
+			<string>DbSchema is for visual designing the schema in a team, deploy and document the schema. Other integrated features like data explorer, visual query editor, data generator, etc., makes DbSchema an every-day tool for everybody who interacts with databases.
+
+DbSchema supports all relational and No-SQL databases, including MySQL, PostgreSQL, SQLite, Microsoft SQL Server, MongoDB, MariaDB, Redshift, Snowflake, Google and more.
+
+DbSchema Free is one of the most powerful tools in its market area.</string>
 			<key>developer</key>
 			<string>Pruteanu Dragos</string>
 			<key>display_name</key>
