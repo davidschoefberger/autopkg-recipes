@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Sequel Ace.</string>
 	<key>Identifier</key>
-	<string>se.new-work.download.SequelAce</string>
+	<string>se.new-work.autopkg.download.SequelAce</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

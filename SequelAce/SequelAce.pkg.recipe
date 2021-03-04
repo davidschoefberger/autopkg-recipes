@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Sequel Ace and creates a package.</string>
 	<key>Identifier</key>
-	<string>se.new-work.pkg.SequelAce</string>
+	<string>se.new-work.autopkg.pkg.SequelAce</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>se.new-work.download.SequelAce</string>
+	<string>se.new-work.autopkg.download.SequelAce</string>
 	<key>Process</key>
 	<array>
 		<dict>

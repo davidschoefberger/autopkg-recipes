@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of DbSchema and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>se.new-work.munki.DbSchema</string>
+	<string>se.new-work.autopkg.munki.DbSchema</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -37,7 +37,7 @@ DbSchema Free is one of the most powerful tools in its market area.</string>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>se.new-work.download.DbSchema</string>
+	<string>se.new-work.autopkg.download.DbSchema</string>
 	<key>Process</key>
 	<array>
 		<dict>
