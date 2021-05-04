@@ -7,6 +7,7 @@ Contains recipes for:
 - Remote Mouse
 - Sequel Ace
 - Silicon Info
+- ueli
 
 
 _Recipes for AutoPkg created @ New Work SE_
