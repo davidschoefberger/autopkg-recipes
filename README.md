@@ -8,6 +8,7 @@ Contains recipes for:
 - Remote Mouse
 - Sequel Ace
 - Silicon Info
+- SupportApp
 - ueli
 
 
