@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Support.</string>
+	<string>Downloads the latest version of SupportApp.</string>
 	<key>Identifier</key>
-	<string>se.new-work.autopkg.download.Support</string>
+	<string>se.new-work.autopkg.download.SupportApp</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Support</string>
+		<string>SupportApp</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>

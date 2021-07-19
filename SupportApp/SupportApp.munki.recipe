@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Support and imports it into Munki.</string>
+	<string>Downloads the latest version of SupportApp and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>se.new-work.autopkg.munki.Support</string>
+	<string>se.new-work.autopkg.munki.SupportApp</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Support</string>
+		<string>SupportApp</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -23,7 +23,7 @@
 			<key>developer</key>
 			<string>Root3 B.V.</string>
 			<key>display_name</key>
-			<string>Support</string>
+			<string>SupportApp</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -33,7 +33,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>se.new-work.autopkg.download.Support</string>
+	<string>se.new-work.autopkg.download.SupportApp</string>
 	<key>Process</key>
 	<array>
 		<dict>
