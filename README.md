@@ -8,6 +8,7 @@ Contains recipes for:
 - Remote Mouse
 - Sequel Ace
 - Silicon Info
+- Sublime Text (currently version 4)
 - SupportApp
 - ueli
 
