@@ -2,10 +2,13 @@
 
 Contains recipes for:
 - Amazon Corretto JDK 11
-- DataGrip
 - DaVinci Resolve 17 (Work in progress, not working yet)
 - DbSchema
 - DeepL
+- JetBrains
+  - DataGrip
+  - PyCharm Community Edition
+  - PyCharm Professional Edition
 - Remote Mouse
 - Sequel Ace
 - Silicon Info
@@ -15,6 +18,3 @@ Contains recipes for:
 
 
 _Recipes for AutoPkg created @ New Work SE_
-
-
-
