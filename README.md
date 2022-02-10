@@ -10,6 +10,7 @@ Contains recipes for:
   - DataGrip
   - PyCharm Community Edition
   - PyCharm Professional Edition
+- Kap
 - Remote Mouse
 - Sequel Ace
 - Silicon Info
