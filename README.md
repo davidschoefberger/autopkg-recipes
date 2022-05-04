@@ -3,7 +3,6 @@
 Contains recipes for:
 - Amazon Corretto JDK 11
 - Android Studio (Apple Silicon version)
-- DaVinci Resolve 17 (Work in progress, not working yet)
 - DbSchema
 - DeepL
 - JetBrains
