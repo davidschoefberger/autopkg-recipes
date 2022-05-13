@@ -8,6 +8,7 @@ Contains recipes for:
 - DeepL
 - JetBrains
   - DataGrip
+  - IntelliJ IDEA Community Edition
   - PyCharm Community Edition
   - PyCharm Professional Edition
 - Kap
