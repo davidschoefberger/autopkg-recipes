@@ -18,6 +18,7 @@ Contains recipes for:
 - Sublime Text (currently version 4)
 - SupportApp
 - ueli
+- XMind
 
 
 _Recipes for AutoPkg created @ New Work SE_
