@@ -23,7 +23,7 @@
 				<key>result_output_var_name</key>
 				<string>url</string>
 				<key>url</key>
-				<string>https://www.sublimetext.com/download</string>
+				<string>https://www.sublimetext.com/download_thanks</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
