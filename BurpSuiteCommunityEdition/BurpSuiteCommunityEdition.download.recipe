@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Burp Suite Community Edition</string>
+		<string>BurpSuiteCommunityEdition</string>
 		<key>VERSION</key>
 		<string>macosx</string>
 	</dict>
