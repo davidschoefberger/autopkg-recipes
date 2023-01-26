@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Downloads and makes a DMG of the latest version of DbVisualizer, and imports into Munki.</string>
 		<key>Identifier</key>
-		<string>se.new-work.autopkg.download.munki.dbvisualizer</string>
+		<string>se.new-work.autopkg.munki.dbvisualizer</string>
 		<key>Input</key>
 		<dict>
 			<key>MUNKI_REPO_SUBDIR</key>
