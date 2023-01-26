@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>Description</key>
-		<string>Downloads the latest version of DbVisualizer and creates a package.</string>
+		<string>Downloads the latest version of DbVisualizer and imports it into Munki. Use ARCHITECTURE "x64" for Intel and "aarch64" for Silicon.</string>
 		<key>Identifier</key>
 		<string>se.new-work.autopkg.pkg.dbvisualizer</string>
 		<key>Input</key>

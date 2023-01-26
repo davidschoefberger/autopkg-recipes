@@ -6,6 +6,7 @@ Contains recipes for:
 - Burp Suite Community Edition
 - DaVinci Resolve 17 (Work in progress, not working yet)
 - DbSchema
+- DbVisualizer
 - DeepL
 - JetBrains
   - DataGrip
