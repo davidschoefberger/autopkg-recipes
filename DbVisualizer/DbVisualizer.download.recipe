@@ -16,21 +16,25 @@
 		<key>Process</key>
 		<array>
 			<dict>
+				<key>Processor</key>
+				<string>URLTextSearcher</string>
 				<key>Arguments</key>
 				<dict>
 					<key>re_pattern</key>
 					<string>(https://dbvis.com/product_download/dbvis-[\S]+\/media/dbvis_macos-%ARCHITECTURE%_[\S]+\.dmg)</string>
 					<key>url</key>
 					<string>https://www.dbvis.com/download</string>
+                    <key>result_output_var_name</key>
+                    <string>download_url</string>
 				</dict>
-				<key>Processor</key>
-				<string>URLTextSearcher</string>
 			</dict>
 			<dict>
 				<key>Processor</key>
 				<string>URLDownloader</string>
 				<key>Arguments</key>
 				<dict>
+                    <key>url</key>
+                    <string>%download_url%</string>
 					<key>filename</key>
 					<string>%NAME%.dmg</string>
 				</dict>
