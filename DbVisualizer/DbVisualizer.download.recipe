@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>Description</key>
-		<string>Downloads the latest version of DbVisualizer.</string>
+		<string>Downloads the latest version of DbVisualizer and imports it into Munki.</string>
 		<key>Identifier</key>
 		<string>se.new-work.autopkg.download.dbvisualizer</string>
 		<key>Input</key>
@@ -12,7 +12,7 @@
 			<string>DbVisualizer</string>
 		</dict>
 		<key>MinimumVersion</key>
-		<string>0.5.0</string>
+		<string>1.0.0</string>
 		<key>Process</key>
 		<array>
 			<dict>
@@ -43,6 +43,28 @@
 				<key>Processor</key>
 				<string>EndOfCheckPhase</string>
 			</dict>
-		</array>
+			<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/DbVisualizer.app</string>
+				<key>requirement</key>
+				<string>always</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>input_plist_path</key>
+					<string>%pathname%/DbVisualizer.app/Contents/Info.plist</string>
+					<key>plist_version_key</key>
+					<string>CFBundleShortVersionString</string>
+				</dict>
+				<key>Processor</key>
+				<string>Versioner</string>
+			</dict>
+			</array>
 	</dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>Description</key>
-		<string>Downloads and makes a DMG of the latest version of DbVisualizer, and imports into Munki.</string>
+		<string>Downloads the latest version of DbVisualizer and imports it into Munki.</string>
 		<key>Identifier</key>
 		<string>se.new-work.autopkg.munki.dbvisualizer</string>
 		<key>Input</key>
@@ -23,7 +23,7 @@
 				<key>description</key>
 				<string>DbVisualizer is the universal database tool for developers, DBAs and analysts. It is the perfect solution since the same tool can be used on all major operating systems accessing a wide range of databases.</string>
 				<key>developer</key>
-				<string>DbVis Software</string>
+				<string>DbVis Software AB</string>
 				<key>display_name</key>
 				<string>DbVisualizer</string>
 				<key>unattended_install</key>
@@ -31,7 +31,7 @@
 			</dict>
 		</dict>
 		<key>MinimumVersion</key>
-		<string>0.5.0</string>
+		<string>1.0.0</string>
 		<key>ParentRecipe</key>
 		<string>se.new-work.autopkg.download.dbvisualizer</string>
 		<key>Process</key>
@@ -40,7 +40,7 @@
 				<key>Arguments</key>
 				<dict>
 					<key>pkg_path</key>
-					<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+					<string>%pathname%</string>
 					<key>repo_subdirectory</key>
 					<string>%MUNKI_REPO_SUBDIR%</string>
 				</dict>
