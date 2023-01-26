@@ -12,6 +12,8 @@
 			<string>apps/DbVis</string>
 			<key>NAME</key>
 			<string>DbVisualizer</string>
+			<key>ARCHITECTURE</key>
+			<string>x64</string>
 			<key>pkginfo</key>
 			<dict>
 				<key>catalogs</key>
